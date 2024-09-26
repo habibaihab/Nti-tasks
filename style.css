@@ -1,0 +1,62 @@
+h2{
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 60px;
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+}
+body{
+    background-color:#00c3c6;
+}
+.contact-form{
+    margin-bottom: 10px;
+    padding: 15px;
+    width: 50%;
+    
+}
+.contact-form input{
+    margin: 10px;
+    width: 340px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 3px;
+    border-color: white;
+}
+#company{
+    width: 150px;        /* Extra padding for the company field */
+    border-radius: 8px; 
+
+}
+#phone{
+    width: 150px;
+}
+#message{
+    margin: 10px;
+    height: 60px;
+    width: 340px;
+}
+.contact-form button{
+    margin-left: 200px;
+    margin-top: 5px;
+    background-color: rgb(240, 240, 6);
+    width: 150px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    border-color:rgb(240, 240, 6);
+}
+.info h3 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 20PX;
+}
+.info p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: white;
+}
+.info ul{
+    color: white;
+}
