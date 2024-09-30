@@ -10,10 +10,11 @@ body{
     background-color:#00c3c6;
 }
 .contact-form{
-    margin-bottom: 10px;
-    padding: 15px;
+    margin-top: 40px;
+    padding: 20px;
+    width: 40%;
+    display: inline-block;
     width: 50%;
-    
 }
 .contact-form input{
     margin: 10px;
@@ -24,7 +25,7 @@ body{
     border-color: white;
 }
 #company{
-    width: 150px;        /* Extra padding for the company field */
+    width: 150px;        
     border-radius: 8px; 
 
 }
@@ -46,9 +47,14 @@ body{
     border-radius: 5px;
     border-color:rgb(240, 240, 6);
 }
+.info{
+    display: inline-block;
+    width: 40%;
+    position: relative;
+    bottom: 80px;
+}
 .info h3 {
     color: white;
-    margin-bottom: 20px;
     font-size: 20PX;
 }
 .info p {
