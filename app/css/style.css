@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+}
+.main-color{ color: #0F0049; }
+.secondary-color{ color: #F63A61; }
+.main-bg{ background-color: #0A85EA; }
+.secondry-bg{background-color: #F63A61; }
+.text-white{ color: white;}
+.text-dark{ color:black;}
+.text-right{ text-align: right;}
+.text-center{ text-align: center;}
+.text-end{ text-align: end;}
+.valign-center{ vertical-align: middle;}
+.inline-block, .nav-items, .nav-item, nav li{ 
+    display: inline-block;
+    vertical-align: middle;
+}
+a{ text-decoration: none;}
+.rounded{ border-radius: 50% }
+.container{ width: 90%; margin: 0 auto;}
+.container-fluid{ width:100%}
+.col-25{ width: calc(100% / 4 - 0.5%)}
+.col-50{ width: calc(100% / 2 - 0.5%)}
+.col-30{ width : calc(100% / 3 )}
+.px-3{ padding-left:3%; padding-right: 3%;}
+.nav-link{ font-size: 1.15rem;}
+.py-3{ padding-top: 3%;padding-bottom: 3%;}
+.btn-primary{ border-radius: 20px; padding: 10px 20px;}
+.text-muted{ color: #111827;
+    font-weight: 400;}
+#hero-text h2{
+    font-size: xx-large;
+    width: 50%;
+    margin-left: auto;
+    margin: 0 auto;
+    padding-bottom: 2%;
+}
+.no-border{ border: none;}
+#hero-text form{
+    margin: 3% auto;
+    box-shadow: 0px 0px 10px #eee;
+    width: 40%;
+    border-radius: 25px;
+    padding: 0.2% 0%
+}
+.dash-board{
+    width:50%;
+    margin: 30px auto ;
+}
+.dash-board img{
+    width: 100%;
+}
+.info{
+    width: 100%;
+    padding: 3%;
+}
+.sites{
+    display: inline-block;
+    padding-top: 3%;
+    padding-left: 10%;
+}
+body{
+    height: 4000px;
+}
+.about-company {
+    background-color: #007bff;
+    color: #fff;
+    padding: 60px;
+    width: 100%;
+    height:65rem;
+}
+.div1{
+    display: inline-block;
+    width: 30%;
+    height: 30%;
+    padding-top: 50px;
+    font-size: 25px;
+    vertical-align: top;
+    margin:20px ;
+    padding-bottom: 5%;
+}
+.div2{
+    vertical-align: top;
+    display: inline-block;
+    width: 50%;
+    padding-top: 50px;
+    margin-top: 25px;
+    margin-left: 10%;
+
+}
+.about-company .container {
+    margin-top: 50px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.about-company p {
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+.learn-more{
+    font-size: 15px;
+    color: white;
+}
+.image{
+    margin-top: 50px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.about-company .team-image {
+    width: fit-content;
+}
+
+.achievements {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.achievements .container {
+    max-width: 1200px;
+}
+
+.achievements h2 {
+    margin-top: 15px;
+    width: 100%;
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.stat {
+    vertical-align: top;
+    padding: 15px;
+    background-color:#f9f9f9;
+    border-radius: 10px;
+    display: inline-block;
+    width: 15rem;
+    height: 15rem;
+    margin: 20px;
+}
+.stats{
+    margin-left: 4%;
+}
+
+.stat img {
+    max-width: 50px;
+    margin-bottom: 10px;
+}
+
+.stat h3 {
+    font-size: 24px;
+    padding: 5px;
+}
+.stat p {
+    font-size: 12px
+}
+.started .container{
+    background-color:  #007bff;
+    color: white;
+    height: 24rem;
+    width: 70%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 25px;
+    margin-top: 20px;
+}
+.description h2{
+    margin-top: 5%;
+   font-size: 50px;
+   font-weight: 500px;
+    
+}
+.description p{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+    font-size: 12px;
+    font-weight: lighter;
+
+}
+.form{
+    /* padding-right: 20px; */
+    margin-left: 30%;
+    width: 40%;
+    background-color: white;
+    border-radius: 25px;
+    height: 50px;
+    text-align: start;
+    
+}
+.form .button{
+    margin-top: 5px;
+    margin-left: 22%;
+
+}
+
+
+
